@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    border: 3px solid red;
+    width: 1230px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
