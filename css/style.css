@@ -1,11 +1,159 @@
-*{
-    box-sizing: border-box;
+:root {
+    --element-color: #CDA274;
+    --maintext-color: #292F36;
+    --secondtext-color: #4D5053;
+    --textandbord-color: #FFFFFF;
+    --mainelement-color: #F4F0EC;
+    --telefon-color: #F4F0EC;
+    --border-color: #E7E7E7;
+    --lastline-color: #E5E5E5;
+}
+
+body {
+    font-family: "Jost";
 }
 
 .container {
-    border: 3px solid red;
     width: 1230px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.nav-list {
+    color: var(--maintext-color);
+font-size: 20px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.4px;
+}
+
+.nav-list:hover,
+.nav-list:focus{
+      color: var(--element-color);
+}
+
+.nav-list-visited:visited {
+    color: var(--element-color);
+}
+
+.nav-list-visited {
+font-size: 20px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.4px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list{
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+}
+
+
+header {
+    padding: 30px 0;
+}
+
+.main-hiro {
+    background-image: url(../img/hiro-backgraund.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 188px;
+    padding-bottom: 260px;
+    border-radius: 0px 0px 0px 290px;
+}
+
+.title-hiro {
+    color: var(--maintext-color);
+font-family: "DM Serif Display";
+font-size: 80px;
+font-weight: 400;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.22px;
+width: 595px;
+margin-bottom: 19px;
+}
+
+.hiro-text {
+    color: var(--secondtext-color);
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.22px;
+width: 577px;
+margin-bottom: 35px;
+}
+
+.main-btn {
+    color: var(--textandbord-color);
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.72px;
+background: var(--maintext-color);
+border: 2px var(--maintext-color);
+border-radius: 18px;
+align-items: center;
+padding-top: 22px;
+padding-bottom: 22px;
+padding-left: 34px;
+padding-right: 23px;
+display: flex;
+gap: 44px;
+}
+
+.description-service {
+    padding-top: 175px;
+    padding-bottom: 170px;
+}
+
+.item-section {
+    display: flex;
+    justify-content: center;
+}
+
+.d-service-item {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.more {
+    padding-bottom: 35px;
+}
+
+.d-service-name {
+    color: var(--maintext-color);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 25px;
+font-weight: 400;
+line-height: 1.56; /* 156% */
+letter-spacing: 0.22px;
+}
+
+.d-service-tag {
+    color: var(--secondtext-color);
+text-align: center;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.stik-tag {
+    color: var(--secondtext-color);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.36px;
 }
