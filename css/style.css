@@ -110,6 +110,8 @@ display: flex;
 gap: 44px;
 }
 
+/* sect */
+
 .description-service {
     padding-top: 175px;
     padding-bottom: 170px;
@@ -123,11 +125,26 @@ gap: 44px;
 .d-service-item {
     display: flex;
     flex-direction: column;
-
+    padding: 75px 52px 70px 52px;
 }
 
-.more {
-    padding-bottom: 35px;
+.other {
+    padding: 75px 42px 70px 42px;
+}
+
+.width {
+    width: 297px;
+}
+
+.space {
+    margin-bottom: 68px;
+    width: 317px;
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+    gap: 6;
 }
 
 .d-service-name {
@@ -147,6 +164,7 @@ font-size: 22px;
 font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.22px;
+margin: 17px 0 35px 0;
 }
 
 .stik-tag {
