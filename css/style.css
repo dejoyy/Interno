@@ -113,6 +113,7 @@ gap: 44px;
 
 /* sect */
 
+
 .description-service {
     padding-top: 175px;
     padding-bottom: 170px;
@@ -172,7 +173,9 @@ letter-spacing: 0.36px;
     width: 296px;
 }
 
+
 /* sect */
+
 
 .call-service {
     padding-bottom: 139px;
@@ -189,9 +192,16 @@ letter-spacing: 0.36px;
     gap: 16px;
 }
 
-.info-tel {
-    display: inline-flex;
-   margin-bottom: 50px;
+.phone {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
 }
 
 .design-title {
@@ -221,7 +231,7 @@ font-size: 24px;
 font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.22px;
-width: 138px;
+width: 100px;
 }
 
 .callus {
@@ -251,7 +261,6 @@ width: 154px;
     gap: 43px;
     flex-shrink: 0;
     width: 280px;
-
 }
 
 .foto-disgn {
@@ -259,3 +268,238 @@ width: 154px;
     width: 592px;
     height: 635px;
 }
+
+
+/* sect */
+
+.reviews-people {
+    margin-bottom: 140px;
+}
+
+.reviews {
+    border-radius: 70px;
+    background: var(--mainelement-color);
+    padding: 103px 35px 121px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.opinion {
+    color: var(--maintext-color);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 45px;
+font-weight: 400;
+line-height: 1.3; /* 130% */
+letter-spacing: 0.22px;
+width: 479px;
+display: flex;
+margin-bottom: 47px;
+}
+
+.list-people {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-people {
+    width: 77px;
+height: 77px;
+}
+
+.sect-pip {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.people-item {
+    background: var(--textandbord-color);
+    border-radius: 30px;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    padding-left: 35px;
+    padding-right: 65px;
+    flex-direction: column;
+}
+
+.people-name {
+    color: var(--maintext-color);
+font-family: "DM Serif Display";
+font-size: 25px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.country {
+    color: var(--secondtext-color);
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.22px;
+width: 140px;
+}
+
+.people-tag {
+    color: var(--secondtext-color);
+font-size: 20px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.22px;
+}
+
+
+/* sect */
+
+.brand-sect {
+    margin-bottom: 113px;
+}
+
+.brand-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* sect */
+
+.design-project-sec {
+    margin-bottom: 140px;
+}
+
+.recent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.design-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 60px;
+}
+
+.col-style {
+    display: flex;
+    flex-direction: column;
+}
+
+.display-style {
+    display: flex;
+padding-top: 25px;
+align-items: flex-start;
+gap: 211px;
+flex-shrink: 0;
+justify-content: center;
+}
+
+.foto-room {
+    width: 587px;
+height: 661px;
+flex-shrink: 0;
+border-radius: 0px 80px 0px 0px;
+}
+
+.project-title {
+    color: var(--maintext-color);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 47px;
+font-weight: 400;
+line-height: 1.32; /* 132.766% */
+letter-spacing: 0.22px;
+margin-bottom: 20px;
+}
+
+.description-project {
+    color: var(--secondtext-color);
+text-align: center;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.22px;
+width: 786px;
+margin-bottom: 71px;
+}
+
+.dis-foto {
+    color: var(--maintext-color);
+font-family: "DM Serif Display";
+font-size: 24px;
+font-weight: 400;
+line-height: 1.56; /* 156.25% */
+letter-spacing: 0.22px;
+}
+
+.style-room {
+    color: var(--secondtext-color);
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.galochka {
+    background: var(--mainelement-color);
+    padding: 27px 30px 27px 30px;
+    border-radius: 100px;
+}
+
+
+/* sect */
+
+.success {
+    background: var(--telefon-color);
+    margin-bottom: 140px;
+}
+
+.list-succes {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.group-succes {
+    border-right: 1px solid var(--element-color);
+    flex-grow: 1;
+}
+
+.group-succes:nth-child(4){
+    border: none;
+}
+
+.number {
+    color: var(--element-color);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 85px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 1.7px;
+}
+
+.achievement {
+    color: var(--secondtext-color);
+text-align: center;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.22px;
+}
+
+
+/* sect */
+
