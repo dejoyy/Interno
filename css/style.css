@@ -7,6 +7,7 @@
     --telefon-color: #F4F0EC;
     --border-color: #E7E7E7;
     --lastline-color: #E5E5E5;
+    --sss-color: #FFE9D3;
 }
 
 body {
@@ -111,6 +112,11 @@ display: flex;
 gap: 44px;
 }
 
+.main-btn:hover {
+    background: var(--textandbord-color);
+    color: var(--maintext-color);
+}
+
 /* sect */
 
 
@@ -166,6 +172,10 @@ font-size: 18px;
 font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.36px;
+}
+
+.stik-tag:hover {
+    color: var(--element-color);
 }
 
 .width {
@@ -261,6 +271,11 @@ width: 154px;
     gap: 43px;
     flex-shrink: 0;
     width: 280px;
+}
+
+.call-button:hover {
+    background: var(--telefon-color);
+    color: var(--maintext-color);
 }
 
 .foto-disgn {
@@ -532,6 +547,10 @@ width: 387px;
 height: 515px;
 }
 
+.blogs-item:hover {
+    background: var(--sss-color);
+}
+
 .fotos-room {
     width: 100%;
 height: 296px;
@@ -598,11 +617,18 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.22px;
 }
 
+.moving:hover {
+    outline: 2px solid var(--element-color);
+    border-radius: 50%;
+}
+
 .right-gal {
     border-radius: 100px;
 background: var(--telefon-color);
 padding: 18px 21px 18px 21px;
 }
+
+
 
 
 
@@ -665,6 +691,12 @@ gap: 44px;
 box-shadow: drop-shadow(1px 0px 18px rgba(0, 0, 0, 0.20));;
 }
 
+.btn-last:hover {
+    background-color: var(--border-color);
+    color: var(--element-color);
+    outline: 2px solid var(--element-color);
+
+}
 
 /* footer */
  
@@ -726,12 +758,20 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.22px;
 }
 
+.item-text:hover {
+      color: var(--element-color);
+}
+
 .contact-item {
     color: var(--secondtext-color);
     font-size: 22px;
     font-weight: 400;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.22px;
+}
+
+.contact-item:hover {
+    color: var(--element-color);
 }
 
 .address-item {
