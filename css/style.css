@@ -692,10 +692,7 @@ box-shadow: drop-shadow(1px 0px 18px rgba(0, 0, 0, 0.20));;
 }
 
 .btn-last:hover {
-    background-color: var(--border-color);
-    color: var(--element-color);
     outline: 2px solid var(--element-color);
-
 }
 
 /* footer */
