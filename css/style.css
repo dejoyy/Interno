@@ -244,6 +244,10 @@ letter-spacing: 0.22px;
 width: 100px;
 }
 
+.telefon-nummer:hover {
+    color: var(--element-color);
+}
+
 .callus {
     color: var(--secondtext-color);
 font-size: 22px;
